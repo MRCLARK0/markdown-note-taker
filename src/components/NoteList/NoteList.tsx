@@ -176,6 +176,7 @@ function EditTagsModal({
         <Modal.Title>Edit Tags</Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        {/* Add feature to add tags from here in CreateReactSelect Input */}
         <Form>
           <Stack gap={2}>
             {availableTags.map((tag) => (
