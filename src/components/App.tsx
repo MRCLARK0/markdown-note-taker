@@ -3,7 +3,7 @@ import { useMemo } from "react";
 import { Container } from "react-bootstrap";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { NewNote } from "./NewNote";
-import { useLocalStorage } from "./util/useLocalStorage";
+import { useLocalStorage } from "../util/useLocalStorage";
 import { v4 as uuidV4 } from "uuid";
 import { NoteList } from "./NoteList/NoteList";
 import { NoteLayout } from "./NoteLayout";
